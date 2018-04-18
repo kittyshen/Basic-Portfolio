@@ -1,11 +1,15 @@
 /*basic styling page*/
 
-body{
+html,body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.2;
+    height:100%;
+    margin:0;
 }
 #wrapper{
     background-image:url("../images/circles-dark.png");
+    margin-bottom:-70px;
+    height:100%;
 }
 h1{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -72,9 +76,7 @@ h1{
     margin-bottom: 20px;
     margin-right:auto;
     margin-left:auto;
-    overflow: auto;
-    min-height:400px;*/
-    margin-bottom: 30px;
+    min-height: 480px;
 }
 
 #aboutme {
@@ -92,6 +94,7 @@ h1{
 img{
     float: left;
     padding:1% 2% 1% 0;
+    max-width: 200px;
 }
 p{
     padding:1%;
