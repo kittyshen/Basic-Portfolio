@@ -20,7 +20,7 @@ h1{
     margin-left:auto;
 }
 #Name{
-    color: grey;
+    color: white;
     width:250px;
     font-size: 35px;
     height: 60px;
@@ -115,6 +115,7 @@ form{
    padding-left:10px;
 }
 input{
+    height:30px;
     margin:10px;
     width:100%;
     font-size:15px;
@@ -129,11 +130,16 @@ textarea{
 
 .SubmitBtn{
     background-color: orange;
+    color:white;
     border-radius: 8px;
     font-size: 20px;
     width:20%;
+    height: 40px;
     clear:both;
-    padding: 12px;
+    padding: 5px;
+}
+.SubmitBtn:hover{
+    background-color: rgb(224, 121, 80);
 }
 
 .oneThird{
@@ -150,7 +156,12 @@ textarea{
     max-width: 60%;
     margin-left:20%;
     margin-right:20%;
+    margin-top:12%;
+}
+.oneThird img:hover{
     margin-top:10%;
+    outline: 5px dotted orange;
+    outline-offset: -2px;
 }
 
 .oneThird span{
@@ -164,11 +175,3 @@ textarea{
     text-align: center;
 }
 
-
-
-
-/*
-a:hover{
-    color:green;
-
-}
